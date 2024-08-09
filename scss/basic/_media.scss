@@ -1,0 +1,522 @@
+@media(max-width: 1400px) {
+    .container {max-width: 1200px;}
+    .title {font-size: 50px;}
+    .subtitle {font-size: 35px;}
+    .btn {
+        width: 290px;
+        height: 60px;
+        font-size: 35px;
+    }
+    .descr {
+        font-size: 18px;
+        line-height: 120%;
+    }
+    .header {
+        &__logo {
+            width: 80px;
+            height: 80px;
+        }
+        &__list {
+            width: 400px;
+        }
+        &__link {
+            font-size: 16px;
+        }
+        &__contacts {
+            width: 180px;
+            &-icon {
+                width: 40px;
+                height: 40px;
+            }
+            &-info {
+                font-size: 16px;
+            }
+        }
+    }
+    .about {
+        height: 730px;
+        &__info {
+            margin-top: 40px;
+        }
+        &__img {
+            height: 473px;
+        }
+        &__arrow {
+            width: 45px;
+            height: 45px;
+        }
+    }
+    .guarantees {
+        padding: 100px 0;
+        &__items {
+            margin-top: 80px;
+        }
+    }
+    .request {
+        &__btn {
+            width: 500px;
+        }
+    }
+    .footer {
+        &__logo {
+            width: 80px;
+            height: 80px;
+        }
+        &__information {
+            width: 550px;
+            &-link {
+                font-size: 18px;
+            }
+            span {
+                font-size: 18px;
+            }
+        }
+        &__contacts {
+            &-number {
+                a {
+                    font-size: 18px;
+                }
+            }
+            &-social {
+                width: 35px;
+                height: 35px;
+            }
+        }
+    }
+    .arrow__top {
+        width: 60px;
+        height: 60px;
+    }
+}
+@media(max-width: 1200px) {
+    .container {max-width: 993px;}
+    .title {font-size: 45px;}
+    .subtitle {font-size: 30px;}
+    .descr {font-size: 16px;}
+    .btn {
+        width: 270px;
+        height: 55px;
+        font-size: 30px;
+    }
+    .about {
+        height: 675px;
+        &__info {
+            margin-top: 40px;
+        }
+        &__img {
+            height: 397px;
+        }
+    }
+    .request {
+        &__btn {
+            width: 500px;
+        }
+    }
+}
+@media(max-width: 993px) {
+    .container {max-width: 769px;}
+    .title {font-size: 40px;}
+    .subtitle {font-size: 25px;}
+    .descr {
+        font-size: 14px;
+        letter-spacing: 0.1px;
+    }
+    .btn {
+        width: 250px;
+        height: 50px;
+        font-size: 25px;
+    }
+    .about {
+        height: 595px;
+        &__info {
+            max-width: 630px;
+            margin-top: 40px;
+        }
+        &__img {
+            height: 350px;
+            width: 350px;
+        }
+        &__arrow {
+            width: 35px;
+            height: 35px;
+        }
+    }
+    .feedback {
+        &__item {
+            flex-direction: column;
+            &-img {
+                width: 200px;
+                height: 200px;
+            }
+            &-content{
+                font-size: 16px;
+                line-height: 120%;
+                letter-spacing: 1px;
+            }
+        }
+    }
+    .footer {
+        &__logo {
+            width: 60px;
+            height: 60px;
+        }
+        &__information {
+            width: 460px;
+            &-link {
+                font-size: 16px;
+            }
+            span {
+                font-size: 16px;
+            }
+        }
+        &__contacts {
+            &-number {
+                a {
+                    font-size: 16px;
+                }
+            }
+            &-social {
+                width: 30px;
+                height: 30px;
+            }
+            &-box {
+                width: 150px;
+            }
+        }
+    }
+}
+@media(max-width: 769px) {
+    .container {max-width: 556px;}
+    .title {font-size: 30px;}
+    .subtitle {font-size: 30px;}
+    .descr {font-size: 12px;}
+    .btn {
+        width: 230px;
+        height: 45px;
+        font-size: 20px;
+    }
+    .hamburger {
+        display: block;
+    }
+    .header {
+        &__logo {
+            width: 50px;
+            height: 50px;
+        }
+        &__menu {
+            position: absolute;
+            top: 0;
+            right: -70%;
+            background-color: $btnColor;
+            width: 70%;
+            height: 100vh;
+            padding: 100px 0 0 50px;
+            visibility: hidden;
+            transition: all .4s;
+        }
+        &__list {
+            display: block;      
+
+        }
+        &__link {
+            font-size: 30px;
+        }
+    }
+    .about {
+        height: 595px;
+        &__info {
+            max-width: 350px;
+            margin-top: 20px;
+        }
+        &__img {
+            height: 300px;
+            width: 300px;
+        }
+        &__arrow {
+            width: 30px;
+            height: 30px;
+        }
+    }
+    .guarantees {
+        padding: 70px 0;
+        &__items {
+            margin-top: 60px;
+        }
+    }
+    .request {
+        &__input {
+            width: 550px;
+            height: 50px;
+            font-size: 16px;
+        }
+    }
+    .footer {
+        &__logo {
+            width: 40px;
+            height: 40px;
+        }
+        &__information {
+            width: 300px;
+            &-link {
+                font-size: 14px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+        &__contacts {
+            &-number {
+                a {
+                    font-size: 14px;
+                }
+            }
+            &-social {
+                width: 30px;
+                height: 30px;
+            }
+            &-box {
+                width: 130px;
+            }
+        }
+    }
+}
+@media(max-width: 556px) {
+    .container {max-width: 320px;}
+    .title {font-size: 25px;}
+    .subtitle {font-size: 15px;}
+    .descr {font-size: 12px;}
+    .btn {
+        width: 210px;
+        height: 40px;
+        font-size: 18px;
+    }
+    .header {
+        padding: 15px 10px;
+        &__logo {
+            width: 50px;
+            height: 50px;
+        }
+        &__link {
+            font-size: 20px;
+        }
+        &__contacts {
+            width: 135px;
+            &-icon {
+                width: 35px;
+                height: 35px;
+            }
+            &-info {
+                font-size: 12px;
+            }
+        }
+    }  
+    .hamburger {
+        width: 30px;
+        height: 50px;
+        span {
+            height: 2px;
+            &:nth-child(1) {
+                transform: translateY(-7px);
+            }
+            &:nth-child(2) {
+                transform: translate3d(10px, 0, 0);
+                width: 70%;
+            }
+            &:nth-child(3) {
+                transform: translateY(7px);
+            }
+        }
+    }
+    .about {
+        height: 850px;
+        padding: 10px;
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__info {
+            max-width: 320px;
+            margin-top: 10px;
+            order: 2;
+        }
+        &__img {
+            height: 250px;
+            width: 250px;
+            order: 1;
+        }
+        &__arrow {
+            width: 30px;
+            height: 30px;
+            margin: 8px auto 0 auto;
+        }
+        &__btn {
+            margin: 10px auto 0 auto;
+        }
+    }
+    .guarantees {
+        padding: 50px 10px;
+        &__items {
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 5px;
+        }
+        &__item {
+            &-title {
+                font-size: 20px;
+            }
+            &-descr {
+                font-size: 12px;
+            }
+        }
+    }
+    .feedback {
+        padding: 50px 10px;
+        &__title {
+            margin-bottom: 30px;
+        }
+        &__item {
+            flex-direction: column;
+            padding: 10px 10px 30px 10px;
+            &-img {
+                width: 200px;
+                height: 200px;
+            }
+            &-content{
+                font-size: 12px;
+                line-height: 120%;
+                letter-spacing: 1px;
+                margin-top: 10px;
+            }
+        }
+    }
+    .request {
+        &__input {
+            width: 300px;
+            height: 50px;
+            font-size: 14px;
+        }
+        &__label {
+            width: 250px;
+            height: 30px;
+            font-size: 12px;
+        }
+        &__btn {
+            margin-top: 30px;
+        }
+        &__checkbox {
+            font-size: 12px;
+            &-input {
+                width: 10px;
+                height: 10px;
+            }
+        }
+    }
+    .footer {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__logo {
+            width: 40px;
+            height: 40px;
+        }
+        &__information {
+            width: 100%;
+            flex-direction: column;
+            margin-top: 30px;
+            &-link {
+                font-size: 14px;
+            }
+            span {
+                font-size: 14px;
+            }
+        }
+        &__contacts {
+            margin-top: 30px;
+            &-number {
+                a {
+                    font-size: 14px;
+                }
+            }
+            &-social {
+                width: 30px;
+                height: 30px;
+            }
+            &-box {
+                width: 130px;
+            }
+        }
+    }
+}
+@media(max-width: 320px) {
+    .title {font-size: 20px;}
+    .subtitle {font-size: 12px;}
+    .btn {
+        width: 200px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .request {
+        height: 500px;
+        padding: 10px;
+        &__input {
+            width: 250px;
+            height:40px;
+            font-size: 12px;
+            border-radius: 10px;
+        }
+        &__label {
+            width: 220px;
+            height: 25px;
+            font-size: 10px;
+            bottom: 35px;
+            border-radius: 10px;
+        }
+        &__btn {
+            margin-top: 20px;
+        }
+        &__checkbox {
+            font-size: 10px;
+            &-input {
+                width: 10px;
+                height: 10px;
+            }
+        }
+    }
+    .footer {
+        &__wrapper {
+            flex-direction: column;
+        }
+        &__logo {
+            width: 40px;
+            height: 40px;
+        }
+        &__information {
+            width: 100%;
+            flex-direction: column;
+            margin-top: 30px;
+            &-link {
+                font-size: 12px;
+            }
+            span {
+                font-size: 12px;
+            }
+        }
+        &__contacts {
+            margin-top: 30px;
+            &-number {
+                a {
+                    font-size: 12px;
+                }
+            }
+            &-social {
+                width: 15px;
+                height: 15px;
+            }
+            &-box {
+                width: 100px;
+            }
+        }
+    }
+    .arrow__top {
+        width: 30px;
+        height: 30px;
+    }
+}

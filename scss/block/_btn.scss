@@ -1,0 +1,20 @@
+.btn {
+    width: 310px;
+    height: 65px;
+    border-radius: 10px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: $textColor;
+    line-height: 150%;
+    letter-spacing: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $btnColor;
+    cursor: pointer;
+    transition: background-color .4s;
+    &:hover {
+        background-color: $btnColorHover;
+    }
+}
